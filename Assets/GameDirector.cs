@@ -10,10 +10,10 @@ public class GameDirector : MonoBehaviour
     void Start()
     {
         this.hpGauge = GameObject.Find("hpGauge");
-        
+
     }
 
-    
+
     public void DecreaseHp()
     {
         this.hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
